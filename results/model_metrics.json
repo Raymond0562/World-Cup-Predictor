@@ -1,0 +1,131 @@
+{
+  "best_model": "random_forest",
+  "final_train_samples": 49505,
+  "final_train_cutoff": "2026-07-15",
+  "validation": [
+    {
+      "model": "logistic_regression",
+      "log_loss": 0.9308,
+      "accuracy": 0.5835,
+      "brier": 0.1813
+    },
+    {
+      "model": "random_forest",
+      "log_loss": 0.9136,
+      "accuracy": 0.5907,
+      "brier": 0.1789
+    },
+    {
+      "model": "xgboost",
+      "log_loss": 0.9143,
+      "accuracy": 0.5928,
+      "brier": 0.1788
+    },
+    {
+      "model": "lightgbm",
+      "log_loss": 0.9159,
+      "accuracy": 0.5938,
+      "brier": 0.1788
+    }
+  ],
+  "test": [
+    {
+      "model": "logistic_regression",
+      "log_loss": 0.8733,
+      "accuracy": 0.6072,
+      "brier": 0.1707
+    },
+    {
+      "model": "random_forest",
+      "log_loss": 0.8656,
+      "accuracy": 0.6075,
+      "brier": 0.1697
+    },
+    {
+      "model": "xgboost",
+      "log_loss": 0.8607,
+      "accuracy": 0.6091,
+      "brier": 0.1687
+    },
+    {
+      "model": "lightgbm",
+      "log_loss": 0.8616,
+      "accuracy": 0.6099,
+      "brier": 0.1689
+    }
+  ],
+  "calibration": [
+    {
+      "outcome": "Home Win",
+      "mean_pred": [
+        0.062,
+        0.149,
+        0.255,
+        0.346,
+        0.447,
+        0.546,
+        0.653,
+        0.749,
+        0.848,
+        0.939
+      ],
+      "frac_pos": [
+        0.074,
+        0.082,
+        0.213,
+        0.339,
+        0.438,
+        0.537,
+        0.624,
+        0.736,
+        0.842,
+        0.935
+      ]
+    },
+    {
+      "outcome": "Draw",
+      "mean_pred": [
+        0.066,
+        0.159,
+        0.26,
+        0.319,
+        0.406
+      ],
+      "frac_pos": [
+        0.074,
+        0.152,
+        0.272,
+        0.297,
+        0.333
+      ]
+    },
+    {
+      "outcome": "Away Win",
+      "mean_pred": [
+        0.055,
+        0.147,
+        0.249,
+        0.354,
+        0.449,
+        0.541,
+        0.653,
+        0.746,
+        0.845,
+        0.939
+      ],
+      "frac_pos": [
+        0.057,
+        0.154,
+        0.287,
+        0.357,
+        0.49,
+        0.56,
+        0.641,
+        0.833,
+        0.899,
+        0.929
+      ]
+    }
+  ],
+  "feature_importance": []
+}
