@@ -1,0 +1,17 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# best_model.pkl is 100MB+, over GitHub's file size limit — the app trains
+# it automatically on first run instead. Smaller model artifacts (scaler,
+# feature names, engineer, poisson model) and results ARE committed.
+models/best_model.pkl
+
+# OS / editor cruft
+.DS_Store
+.vscode/
