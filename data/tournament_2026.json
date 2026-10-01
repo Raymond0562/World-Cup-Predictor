@@ -1,0 +1,90 @@
+{
+  "year": 2026,
+  "format": "48-team",
+  "n_groups": 12,
+  "group_size": 4,
+  "auto_advance": 2,
+  "best_third_advance": 8,
+  "knockout_rounds": [
+    "Round of 32",
+    "Round of 16",
+    "Quarterfinal",
+    "Semifinal",
+    "Final"
+  ],
+  "groups": {
+    "A": [
+      "Algeria",
+      "Argentina",
+      "Austria",
+      "Jordan"
+    ],
+    "B": [
+      "Australia",
+      "Paraguay",
+      "Turkey",
+      "United States"
+    ],
+    "C": [
+      "Belgium",
+      "Egypt",
+      "Iran",
+      "New Zealand"
+    ],
+    "D": [
+      "Bosnia and Herzegovina",
+      "Canada",
+      "Qatar",
+      "Switzerland"
+    ],
+    "E": [
+      "Brazil",
+      "Haiti",
+      "Morocco",
+      "Scotland"
+    ],
+    "F": [
+      "Cape Verde",
+      "Saudi Arabia",
+      "Spain",
+      "Uruguay"
+    ],
+    "G": [
+      "Colombia",
+      "DR Congo",
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "H": [
+      "Croatia",
+      "England",
+      "Ghana",
+      "Panama"
+    ],
+    "I": [
+      "Curaçao",
+      "Ecuador",
+      "Germany",
+      "Ivory Coast"
+    ],
+    "J": [
+      "Czech Republic",
+      "Mexico",
+      "South Africa",
+      "South Korea"
+    ],
+    "K": [
+      "France",
+      "Iraq",
+      "Norway",
+      "Senegal"
+    ],
+    "L": [
+      "Japan",
+      "Netherlands",
+      "Sweden",
+      "Tunisia"
+    ]
+  },
+  "note": "Groups inferred from actual 2026 FIFA World Cup schedule."
+}
